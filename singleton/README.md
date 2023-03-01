@@ -1,0 +1,11 @@
+# DESIGN PATTERNS
+
+## Builder
+
+### O *Builder* é um padrão de projeto criacional que permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.
+
+## Exercícios:
+### **CarsBuilder**: Implementação das classes _director_, _land_rover_builder_ e _porsche_builder_ no projeto CarsBuilder.
+
+### 
+
