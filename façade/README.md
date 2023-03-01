@@ -1,11 +1,18 @@
 # DESIGN PATTERNS
 
-## Builder
+## Façade
 
-### O *Builder* é um padrão de projeto criacional que permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.
+### O _Façade_ é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes..
 
 ## Exercícios:
-### **CarsBuilder**: Implementação das classes _director_, _land_rover_builder_ e _porsche_builder_ no projeto CarsBuilder.
+### **MagicSquare**: 
+- Um quadrado mágico é uma matriz quadrada cujas linhas, colunas e diagonais somam o mesmo valor.
+- Eu construí um sistema que nos ajuda a construir quadrados mágicos, mas é um pouco complicado. Atualmente é composto por três turmas:
+   - **Generator** cria uma matriz de dígitos aleatórios (adequadamente restritos) de um comprimento específico.
+     - Você pode usar este gerador várias vezes para construir uma matriz quadrada do tamanho necessário.
+   - **Splitter** divide uma matriz quadrada 2D em várias listas contendo todas as linhas, todas as colunas e todas as diagonais.
+   - **Verifier** garante que, dada uma lista de listas, todas as listas somam o mesmo valor.
+- Usando todos os itens acima, implemente uma fachada MagicSquareGenerator que use todos esses três componentes para gerar um quadrado mágico válido do tamanho necessário.
 
 ### 
 
