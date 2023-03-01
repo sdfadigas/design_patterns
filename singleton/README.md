@@ -1,11 +1,14 @@
 # DESIGN PATTERNS
 
-## Builder
+## Singleton
 
-### O *Builder* é um padrão de projeto criacional que permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.
+### O _Singleton_ é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
+
+
 
 ## Exercícios:
-### **CarsBuilder**: Implementação das classes _director_, _land_rover_builder_ e _porsche_builder_ no projeto CarsBuilder.
+### **Database**: 
+  - Instancie 2 objetos de database e verifique se eles são iguais ou diferentes.
 
 ### 
 
