@@ -1,11 +1,15 @@
 # DESIGN PATTERNS
 
-## Builder
+## Proxy
 
-### O *Builder* é um padrão de projeto criacional que permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.
+### O **Proxy** é um padrão de projeto estrutural que permite que você forneça um substituto ou um espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você faça algo ou antes ou depois do pedido chegar ao objeto original.
 
 ## Exercícios:
-### **CarsBuilder**: Implementação das classes _director_, _land_rover_builder_ e _porsche_builder_ no projeto CarsBuilder.
+### **Person**: 
+- Você recebeu a classe `Pessoa` e pediu para escrever um proxy `ResponsabilidadePessoa` que faz o seguinte:
+- Permite que a pessoa beba, a menos que tenha menos de 18 anos (nesse caso, devolva "muito jovem").
+- Permite que a pessoa dirija, a menos que tenha menos de 16 anos (caso contrário, "muito jovem").
+- Em caso de dirigir embriagado, retorna "morto", independente da idade.
 
 ### 
 
