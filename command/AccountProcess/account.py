@@ -7,4 +7,11 @@ class Account:
         self.balance = balance
 
     def process(self, command: Command):
-        pass
+        if(command.action == Action.WITHDRAW and (command.amount <= self.balance)):
+            self.balance -= command.amount
+            command.success = True
+        elif(command.action == Action.DEPOSIT):
+            self.balance += command.amount
+            command.success = True
+        else:
+            command.success = False
