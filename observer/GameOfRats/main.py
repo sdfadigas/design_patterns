@@ -14,8 +14,19 @@ def test_two_rats():
     rat2 = Rat(game)
     print(f"rat 1: {rat.attack} should equal 2.")
     print(f"rat 2: {rat2.attack} should equal 2.")
+    
+def test_three_rats():
+    game = Game()
+    rat = Rat(game)
+    rat2 = Rat(game)
+    rat3 = Rat(game)
+    print(f"rat 1: {rat.attack} should equal 2.")
+    print(f"rat 2: {rat2.attack} should equal 2.")
+    print(f"rat 3: {rat3.attack} should equal 3.")
 
 
 test_single_rat()
 print("\n")
 test_two_rats()
+print("\n")
+test_three_rats()
