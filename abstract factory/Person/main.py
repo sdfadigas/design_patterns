@@ -16,6 +16,5 @@ print(person_3.id, person_3.name)
 person_4 = person_factory.create_person('jose', 20)
 print(person_4.id, person_4.name)
 
-#self.listOfPeople, self.person_id, person_1, person_2, person_3 e person_4 são variáveis de referencia e armazenam os objetos criados pela factory
 
 #self.listOfPeople, self.person_id, person_1, person_2, person_3 e person_4 são variáveis de referencia e armazenam os objetos criados pela factory
