@@ -1,7 +1,7 @@
 from output_format import OutputFormat
 from text_processor import TextProcessor
 
-items: list[str] = ["foo", "bar", "baz"]
+items: list[str] = ["lista", "pra", "ver", "se", "funciona"]
 
 text_processor = TextProcessor()
 text_processor.set_output_format(OutputFormat.MARKDOWN)

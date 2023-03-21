@@ -10,11 +10,17 @@ class TextProcessor:
         self.list_strategy = list_strategy
 
     def append_list(self, items: list[str]):
-        pass
+        self.list_strategy.start(self.buffer)
+        for item in items:
+            self.list_strategy.add_list_item(self.buffer, item)
+        self.list_strategy.end(self.buffer)
 
     def set_output_format(self, format: OutputFormat):
-        pass
-    
+        if format == OutputFormat.HTML:
+            self.list_strategy = HtmlListStrategy()
+        elif format == OutputFormat.MARKDOWN:
+            self.list_strategy = MarkdownListStrategy()
+
     def clear(self):
         self.buffer.clear()
 
