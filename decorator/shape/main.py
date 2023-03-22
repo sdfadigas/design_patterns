@@ -11,3 +11,4 @@ square = ColoredShape(Square(2), 'blue')
 print(square)
 square.resize(2)
 print(square)
+
