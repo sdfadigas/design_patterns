@@ -19,7 +19,7 @@ Dica:
 
 
 - O resultado deve ser:
-A circle of radius 5 has the color red
-A circle of radius 10 has the color red
-A square with side 2 has the color blue
+A circle of radius 5 has the color red  
+A circle of radius 10 has the color red  
+A square with side 2 has the color blue  
 A square with side 2 has the color blue
