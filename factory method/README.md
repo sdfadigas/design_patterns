@@ -8,7 +8,7 @@
 ### ** MonthlyStatement** : 
 1 - Refatorar a classe MonthlyStatement (Factory Method)  
       - Remover a regra de negócio de dentro dos ifs.  
-      - Remover os atributos para uma classe separada
+      - Remover os atributos para uma classe separada.   
       - A função generate vai retornar o objeto Customer com base no tipo CustomerType passado como parâmetro
 
         self.call_cost: float
