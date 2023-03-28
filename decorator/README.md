@@ -16,9 +16,7 @@ Dica:
 ....
 - Você é solicitado a concluir a implementação de ColoredShape.
 
-
-
-O resultado deve ser:
+- O resultado deve ser:    
 A circle of radius 5 has the color red  
 A circle of radius 10 has the color red  
 A square with side 2 has the color blue  
